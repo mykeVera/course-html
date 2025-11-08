@@ -1,4 +1,4 @@
-## JS Course with Nicolas Schurmann
+## HTML Course with Nicolas Schurmann
 
 ```bash
 # Academy
