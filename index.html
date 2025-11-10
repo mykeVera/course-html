@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            /* border-collapse: collapse; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hola beats</td>
+                <td>$200</td>
+            </tr>
+            <tr>
+                <td>Chanchito feliz</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Chanchito feliz muy feliz</td>
+                <td>$300</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>Total $600</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- ul es lista no ordenada -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+
+    <!-- ol es lista ordenada -->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">Sub Elemento 1</li>
+                <li style="list-style-type: lower-roman;">Sub Elemento 2</li>
+                <li style="list-style-type: lower-roman;">Sub Elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+    <form action="/formulario" method="POST">
+        <label for="name">Nombre</label>
+        <input value="mike" type="text" id="name" name="name" placeholder="Introduce Nombre">
+        <br>
+        <label for="lastname">Apellido</label>
+        <input value="vera" type="text" id="lastname" name="lastname" placeholder="Introduce Apellido">
+        <br>
+        <label for="coment">Comentarios</label>
+        <textarea cols="40" rows="10" name="coment" id="coment"
+            placeholder="Introduce Comentarios">este si es un valor por defecto</textarea>
+        <br>
+        <!-- <input type="submit" value="Enviar"> -->
+        <button type="submit">Enviar</button> <!-- Personalizable -->
+    </form>
+
+
+    <h1>Mi primer Heading</h1>
+    <h2>Mi primer Heading</h2>
+    <h3>Mi primer Heading</h3>
+    <h4>Mi primer Heading</h4>
+    <h5>Mi primer Heading</h5>
+    <h6>Mi primer Heading</h6>
+    <p>Chanchito feliz esta muy feliz</p>
+    <p>Chanchito triste esta muy triste</p>
+    <hr>
+    <h2>Chanchito feliz</h2>
+    <p>
+        Este texto es <span style="color: brown;">mucho más largo</span>
+        y es para mostrar <br /> la etiqueta de span
+    </p>
+
+    <a href="https://www.google.com" target="_blank">Ir a Google</a>
+    <img src="img/coffe.png" height="300" alt="">
+
+
+</body>
+
+</html>
